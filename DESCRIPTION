@@ -1,4 +1,6 @@
 Package: helloworld
+Remotes: github::belindalombard/helloworld
+Import: helloworld
 Title: Adds a function that prints 'hello world'
 Version: 0.0.0.9000
 Authors@R: 
@@ -9,3 +11,4 @@ License: `use_mit_license()`, `use_gpl3_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggest: devtools
